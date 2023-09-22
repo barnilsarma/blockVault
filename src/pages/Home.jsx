@@ -1,10 +1,14 @@
 import Navbar from "../components/Navbar";
+import Blockchain_adv from "../components/Blockchain_adv";
+import About from "../components/About";
 import Hero from "../components/Hero";
 const Home = () => {
     return (
-        <div className='flex flex-col'>
+        <div className='flex flex-col' style={{ rowGap: '5rem' }}>
             <Navbar />
             <Hero />
+            <About />
+            <Blockchain_adv />
         </div>
     );
 }
