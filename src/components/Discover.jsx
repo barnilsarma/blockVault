@@ -7,7 +7,7 @@ const Discover = () => {
     ];
     return (
         <>
-            <h1 className="text-center">Discover the benefits</h1>
+            <h1 className="text-center text-[#000011] text-[2rem] md:text-[5rem]">Discover the benefits</h1>
             <div className="flex flex-col items-center justify-around md:flex-row">
                 {benefits.map((item) => <Discover_card title={item.title} desc={item.desc} />)}
             </div>
