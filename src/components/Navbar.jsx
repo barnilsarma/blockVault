@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 const Navbar = (props) => {
-    const navLinks = [{ name: 'HOME', dest: '/' }, { name: 'PROFILE', dest: '/Profile' }, { name: 'UPLOADS', dest: '/Uploads' }];
+    const navLinks = [{ name: 'HOME', dest: '/' }, { name: 'PROFILE', dest: '/Profile' }];
     const [state, setState] = useState('150vw');
     const [trans, setTrans] = useState('0');
     const handleState = () => {
